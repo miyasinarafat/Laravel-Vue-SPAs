@@ -27,13 +27,19 @@
                         <li class="text-sm leading-loose"><router-link class="text-black" :to="{ name: 'typography' }">Typography</router-link></li>
                     </ul>
                 </div>
-                <div>
+                <div class="mb-10">
                     <h5 class="uppercase font-bold mb-5">Doodles</h5>
                     <ul>
                         <li class="text-sm leading-loose"><router-link class="text-black" :to="{ name: 'mascot' }">Mascot</router-link></li>
                         <li class="text-sm leading-loose"><router-link class="text-black" :to="{ name: 'illustrations' }">Illustrations</router-link></li>
                         <li class="text-sm leading-loose"><router-link class="text-black" :to="{ name: 'loaders-animations' }">Loaders and Animations</router-link></li>
                         <li class="text-sm leading-loose"><router-link class="text-black" :to="{ name: 'wallpapers' }">Wallpapers</router-link></li>
+                    </ul>
+                </div>
+                <div>
+                    <h5 class="uppercase font-bold mb-5">Stats</h5>
+                    <ul>
+                        <li class="text-sm leading-loose"><router-link class="text-black" :to="{ name: 'site-stats' }">Site Stats</router-link></li>
                     </ul>
                 </div>
             </aside>
